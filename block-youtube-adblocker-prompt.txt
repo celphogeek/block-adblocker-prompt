@@ -7,13 +7,3 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
 
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
-
-This is the old code, which may not be working correctly:
-
-youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
-
-youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
-
-youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-
-youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
